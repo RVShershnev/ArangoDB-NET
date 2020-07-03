@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arango.Client", "Arango.Client\Arango.Client.csproj", "{BBB9A46E-C8DF-4A19-948D-02E2AF83765A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arango.Client", "Arango.Client\Arango.Client.csproj", "{67D4E790-D237-4672-B3A8-F3390B77C7F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arango.ConsoleTests", "Arango.ConsoleTests\Arango.ConsoleTests.csproj", "{A4DB13E7-92D6-4576-9F7C-63FC67DA0328}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arango.Tests", "Arango.Tests\Arango.Tests.csproj", "{1115B3AA-04F6-48E6-B0D1-40D9EB93EC71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arango.Tests", "Arango.Tests\Arango.Tests.csproj", "{456A36A5-C017-4766-967D-5B61C049644F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arango.ConsoleTests", "Arango.ConsoleTests\Arango.ConsoleTests.csproj", "{04108000-AD23-4D52-AD8E-2D72D09B5607}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,20 +15,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BBB9A46E-C8DF-4A19-948D-02E2AF83765A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BBB9A46E-C8DF-4A19-948D-02E2AF83765A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BBB9A46E-C8DF-4A19-948D-02E2AF83765A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BBB9A46E-C8DF-4A19-948D-02E2AF83765A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A4DB13E7-92D6-4576-9F7C-63FC67DA0328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A4DB13E7-92D6-4576-9F7C-63FC67DA0328}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A4DB13E7-92D6-4576-9F7C-63FC67DA0328}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A4DB13E7-92D6-4576-9F7C-63FC67DA0328}.Release|Any CPU.Build.0 = Release|Any CPU
-		{456A36A5-C017-4766-967D-5B61C049644F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{456A36A5-C017-4766-967D-5B61C049644F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{456A36A5-C017-4766-967D-5B61C049644F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{456A36A5-C017-4766-967D-5B61C049644F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D4E790-D237-4672-B3A8-F3390B77C7F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D4E790-D237-4672-B3A8-F3390B77C7F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D4E790-D237-4672-B3A8-F3390B77C7F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D4E790-D237-4672-B3A8-F3390B77C7F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1115B3AA-04F6-48E6-B0D1-40D9EB93EC71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1115B3AA-04F6-48E6-B0D1-40D9EB93EC71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1115B3AA-04F6-48E6-B0D1-40D9EB93EC71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1115B3AA-04F6-48E6-B0D1-40D9EB93EC71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04108000-AD23-4D52-AD8E-2D72D09B5607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04108000-AD23-4D52-AD8E-2D72D09B5607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04108000-AD23-4D52-AD8E-2D72D09B5607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04108000-AD23-4D52-AD8E-2D72D09B5607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {280463CF-F3EB-4A9A-9BBC-F2EC687EB9B1}
 	EndGlobalSection
 EndGlobal
